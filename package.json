@@ -1,0 +1,12 @@
+{
+  "name": "dungeonquest",
+  "version": "1.0.0",
+  "description": "Dungeon Quest Game",
+  "main": "test.php",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+} 

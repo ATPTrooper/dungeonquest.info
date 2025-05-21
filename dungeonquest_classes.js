@@ -1,4 +1,3 @@
-
 class Hero {
 	constructor(p_heroJSON) {
 		this.x = 1;
@@ -288,4 +287,16 @@ class CardDeck {
 	empty() {
 		return this._used_card_list.length >= Object.keys(this._cardsJSON).length;
 	}
+}
+
+// Add module exports at the end of the file
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        Hero,
+        LootItem,
+        Encounter,
+        Monster,
+        Chamber,
+        CardDeck
+    };
 }
